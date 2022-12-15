@@ -12,7 +12,7 @@ Section:NewButton("RTX", "rtx", function()
 end)
 Section:NewButton("doors script", "doorsscript", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/slowpii/slowpihub/main/slowpihax",true))()
-Section:NewButton("Key_mZUjim6kXqCkmid0c9pXH4jEqfk7F6PebRrmOTzd", "author 1", function()
+Section:NewButton("Key_mZUjim6kXqCkmid0c9pXH4jEqfk7F6PebRrmOTzd", "key", function()
 end)
 
 --Character
