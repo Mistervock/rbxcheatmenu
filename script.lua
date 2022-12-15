@@ -10,19 +10,10 @@ end)
 Section:NewButton("RTX", "rtx", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/Qunce5TP",true))()
 end)
--- Extra scripts
-local Tab = Window:NewTab("Extra Scripts")
-local Section = Tab:NewSection("Extra Scripts")
-Section:NewButton("Simple Spy", "Executes Simple Spy", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))()
-end)
-Section:NewButton("Dex V2", "Executes Dex V2", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
-end)
 
---Universal
-local Tab = Window:NewTab("Universal")
-local Section = Tab:NewSection("Universal")
+--Character
+local Tab = Window:NewTab("Character")
+local Section = Tab:NewSection("Character")
 Section:NewSlider("WalkSpeed", "Changes WalkSpeed", 500, 16, function(v) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
@@ -36,6 +27,9 @@ Section:NewButton("AnitCheat Bypass", "Works in most games but not all", functio
     Hitbox = true -- Allow Normal Hitbox (if true, attempt to bypass hbe if false)
     loadstring(game:HttpGet("https://pastebin.com/raw/MZrwt5Rm", true))()
     end)
+Section:NewButton("noclip", "noclip", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9LBsfRkD",true))()
+end)
 
 -- Settings
 local Tab = Window:NewTab("Settings")
