@@ -10,6 +10,10 @@ end)
 Section:NewButton("RTX", "rtx", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/Qunce5TP",true))()
 end)
+Section:NewButton("doors script", "doorsscript", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/slowpii/slowpihub/main/slowpihax",true))()
+Section:NewButton("Key_mZUjim6kXqCkmid0c9pXH4jEqfk7F6PebRrmOTzd", "author 1", function()
+end)
 
 --Character
 local Tab = Window:NewTab("Character")
@@ -41,6 +45,6 @@ end)
 --Credits
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Credits")
-Section:NewButton("Made By aaryn#0001", "Bruh", function()
+Section:NewButton("Made By Mistervock#3840", "author 1", function()
 
 end)
