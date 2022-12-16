@@ -40,17 +40,13 @@ local Section = Tab:NewSection("Settings")
 Section:NewKeybind("Toggle UI", "Toggle's UI", Enum.KeyCode.RightShift, function()
 	Library:ToggleUI()
 end)
-
 --Credits
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Credits")
 Section:NewButton("Made By Mistervock#3840", "author 1", function()
-
 end)
-
 --Keys
 local Tab = Window:NewTab("Keys")
 local Section = Tab:NewSection("Keys")
 Section:NewButton("Doors script Key_mZUjim6kXqCkmid0c9pXH4jEqfk7F6PebRrmOTzd", "doorskey", function()
-
 end)
