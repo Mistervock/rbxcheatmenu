@@ -37,7 +37,7 @@ Section:NewButton("noclip", "noclip", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/9LBsfRkD",true))()
 end)
 Section:NewButton("fly", "fly", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/KRAc5UZ1",true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/kUXXL8Qf",true))()
 end)
 
 -- Settings
