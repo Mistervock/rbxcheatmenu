@@ -48,6 +48,5 @@ Section:NewButton("Made By Mistervock#3840", "author 1", function()
 --Keys
 local Tab = Window:NewTab("Keys")
 local Section = Tab:NewSection("Keys")
-Section:NewButton("key doors", "doorskey", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/CBYbeZSb", true))()
+Section:NewButton("key doors link: http://q32.pw/cqfG", "doorskey", function()
 end)
