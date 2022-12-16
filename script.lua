@@ -48,5 +48,6 @@ Section:NewButton("Made By Mistervock#3840", "author 1", function()
 --Keys
 local Tab = Window:NewTab("Keys")
 local Section = Tab:NewSection("Keys")
-Section:NewButton("Doors script Key_mZUjim6kXqCkmid0c9pXH4jEqfk7F6PebRrmOTzd", "doorskey", function()
+Section:NewButton("key doors", "doorskey", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/CBYbeZSb", true))()
 end)
