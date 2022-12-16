@@ -13,7 +13,7 @@ end)
 Section:NewButton("doors script 1", "doorsscript1", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/slowpii/slowpihub/main/slowpihax",true))()
 end)
-Section:NewButton("doors script 2", "doorsscript2", function()
+Section:NewButton("doors script 2", "doorssscript2", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors",true))()
 end)
 
