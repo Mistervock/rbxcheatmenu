@@ -36,6 +36,9 @@ Section:NewButton("AnitCheat Bypass", "Works in most games but not all", functio
 Section:NewButton("noclip", "noclip", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/9LBsfRkD",true))()
 end)
+Section:NewButton("fly", "fly", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ma8CvTF3",true))()
+end)
 
 -- Settings
 local Tab = Window:NewTab("Settings")
