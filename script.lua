@@ -58,5 +58,5 @@ Section:NewButton("Made By Mistervock#3840", "author 1", function()
 --Keys
 local Tab = Window:NewTab("Keys")
 local Section = Tab:NewSection("Keys")
-Section:NewButton("key doors script 1 link: http://q32.pw/cqfG", "doorskey", function()
+Section:NewButton("key doors script 1 link: https://shrlink.top/chylV", "doorskey", function()
 end)
