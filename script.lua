@@ -16,6 +16,9 @@ end)
 Section:NewButton("doors script 2", "doorssscript2", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors",true))()
 end)
+Section:NewButton("Build a boat for treasure", "buildaboat", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",true))()
+end)
 
 --Character
 local Tab = Window:NewTab("Character")
