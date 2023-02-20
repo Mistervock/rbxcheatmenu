@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Vock hub V1", "Serpent")
+local Window = Library.CreateLib("Vock hub V2", "Serpent")
 
 -- Game Scripts
 local Tab = Window:NewTab("Game Scripts")
