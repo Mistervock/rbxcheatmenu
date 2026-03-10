@@ -443,6 +443,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/
 ]], "Полёт сына мияги")
 
 Library:AddScript("Основная база сука", [[
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NotEnoughJack/LuaFluentDependancies/refs/heads/main/main.lua"))()
+]], "ЖЖС скрипт читы")
+
+Library:AddScript("Основная база сука", [[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))();
 ]], "анти-афк")
 
