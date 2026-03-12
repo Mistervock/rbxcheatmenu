@@ -304,7 +304,7 @@ Library:AddScript("Основная база сука",[[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DeadRails", true))()
 ]],"твой дед под рельсами читы")
 
-Library:AddScript("Основная база сука" [[
+Library:AddScript("Основная база сука", [[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CludeHub/RTX-Night-Day/refs/heads/main/RTX-Like-Never-Before.lua"))()
     
 ]], "симулятор взрыва Пакистана")
