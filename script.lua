@@ -308,6 +308,45 @@ Library:AddScript("Основная база сука",[[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))();
 ]],"анти-афк")
 
+Library:AddScript("Основная база сука", [[
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+local function createTrollPart(name, size, offset)
+    local p = Instance.new("Part")
+    p.Name = name
+    p.Size = Vector3.new(size, size, size)
+    p.Shape = Enum.PartType.Ball
+    p.Color = Color3.fromRGB(255, 200, 150) -- Skin tone-ish
+    p.CanCollide = false
+    p.Parent = character
+    return p
+end
+
+-- Generate the "Assets"
+local ball1 = createTrollPart("Left_Buffer", 1.2)
+local ball2 = createTrollPart("Right_Buffer", 1.2)
+
+-- The "Godmode" Loop (Actually just positioning the parts)
+RunService.RenderStepped:Connect(function()
+    local root = character:FindFirstChild("HumanoidRootPart")
+    if root then
+        -- Positioned exactly where you requested in the troll post
+        ball1.CFrame = root.CFrame * CFrame.new(-0.5, -1, 0.5)
+        ball2.CFrame = root.CFrame * CFrame.new(0.5, -1, 0.5)
+    end
+end)
+    
+]], "Ахуенный режим бессмертия без теста и смс регистрации (маловероятно что работает, но похуй)")
+
+print("!!! GODMODE ACTIVATED !!!")
+print("Targeting all players.")
+
+
+
 Library:AddScript("Основная база сука",[[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vqmpjayZ/More-Scripts/refs/heads/main/Jerk_Tool.lua"))()
 ]],"Дрочка")
