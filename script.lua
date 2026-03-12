@@ -259,12 +259,34 @@ end
 
 -- ───── ЗАПУСК ─────
 
-Library:AddCategory("Своё")
 Library:AddCategory("Основная база сука")
-Library:AddCategory("Другие ХАБЫ")
+Library:AddCategory("R6")
+Library:AddCategory("R15")
+Library:AddCategory("Своё")
 Library:AddCategory("Об хабе")
-
+Library:AddCategory("Другие ХАБЫ")
 Library:AddScript("Об хабе",[[print("s")]],"Сделано ради Деворера")
+
+
+Library:AddScript("R6", [[
+loadstring(game:HttpGet('https://raw.githubusercontent.com/396abc/Script/refs/heads/main/Fly.lua'))()
+]], "Неразвиваемый полёт")
+
+Library:AddScript("R15", [[
+
+local UserInputService = game:GetService("UserInputService")
+
+local isMobile = UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled
+
+if isMobile then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/396abc/Script/refs/heads/main/MobileFly.lua"))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/396abc/Script/refs/heads/main/FlyR15.lua"))()
+end
+
+    
+]], "Неразвиваемый полёт")
+
 
 Library:AddScript("Другие ХАБЫ",[[
 loadstring(game:HttpGet("https://gist.githubusercontent.com/maks1165/d7e70695bc613228d119efd4d28b963a/raw/f75cfce0f2ae0430cf1240d5f62c77f50dafcbfa/universal%2520script"))()
