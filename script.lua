@@ -287,7 +287,7 @@ end
     
 ]], "Неразвиваемый полёт")
 
-
+----
 Library:AddScript("Другие ХАБЫ",[[
 loadstring(game:HttpGet("https://gist.githubusercontent.com/maks1165/d7e70695bc613228d119efd4d28b963a/raw/f75cfce0f2ae0430cf1240d5f62c77f50dafcbfa/universal%2520script"))()
 ]],"Универсальное меню")
@@ -298,7 +298,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/
 
 Library:AddScript("Основная база сука",[[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NotEnoughJack/LuaFluentDependancies/refs/heads/main/main.lua"))()
-]],"ЖЖС скрипт читы")
+]],"красная ваншот еботня (жжс) скрипт читы")
+
+Library:AddScript("Основная база сука",[[
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DeadRails", true))()
+]],"твой дед под рельсами читы")
 
 Library:AddScript("Основная база сука",[[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))();
