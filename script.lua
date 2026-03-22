@@ -1,6 +1,6 @@
 -- vockHub key-system
 
-local correctKey = "1111" -- сюда вставь свой ключ
+local correctKey = "1111" --
 
 local sg = Instance.new("ScreenGui")
 sg.Name = "VockKeySystem"
