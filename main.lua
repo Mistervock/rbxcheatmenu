@@ -973,6 +973,9 @@ _G.FullBrightExecuted = true
 _G.FullBrightEnabled = not _G.FullBrightEnabled
 ]], "убрать освещение (fullbright)")
 
+Library:AddScript("база сука", [[
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mistervock/rbxcheatmenu/refs/heads/readme/snake.lua"))()
+]], "Змея Анджелы")
 Library:AddScript("игры бля",[[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NotEnoughJack/LuaFluentDependancies/refs/heads/main/main.lua"))()
 ]],"красная ваншот еботня (JJS) скрипт читы")
