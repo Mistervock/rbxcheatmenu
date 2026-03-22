@@ -975,11 +975,15 @@ _G.FullBrightEnabled = not _G.FullBrightEnabled
 
 Library:AddScript("игры бля",[[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NotEnoughJack/LuaFluentDependancies/refs/heads/main/main.lua"))()
-]],"красная ваншот еботня (жжс) скрипт читы")
+]],"красная ваншот еботня (JJS) скрипт читы")
+
+Library:AddScript("игры бля", [[
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+]], "шары твоей бати (blade ball)")
 
 Library:AddScript("игры бля",[[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DeadRails", true))()
-]],"твой дед под рельсами читы")
+]],"твой дед под рельсами (dead rails) читы")
 
 Library:AddScript("база сука",[[
 loadstring(game:HttpGet("https://pastebin.com/raw/uqD7VqQU"))()
