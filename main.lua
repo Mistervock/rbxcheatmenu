@@ -1159,6 +1159,10 @@ Library:AddScript("база сука", [[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Mistervock/rbxcheatmenu/refs/heads/readme/snake.lua"))()
 ]], "Змея Анджелы")
 
+Library:AddScript("база сука", [[
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+]], "Проверить файлы игры")
+
 Library:AddScript("игры бля", [[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NotEnoughJack/LuaFluentDependancies/refs/heads/main/main.lua"))()
 ]], "Красная ваншот еботня (JJS) — читы")
